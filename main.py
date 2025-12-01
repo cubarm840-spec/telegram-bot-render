@@ -3,7 +3,7 @@ from telegram import InputFile
 import os
 
 # Получаем токен из переменных окружения Render
-TOKEN = os.environ.get("BOT_TOKEN")
+TOKEN = os.environ.get("8140716585:AAEYA18MWOf9IiW5cIUPFzFIGUVIVrQahF4")
 
 async def start(update, context):
     chat_id = update.effective_chat.id
@@ -23,3 +23,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
